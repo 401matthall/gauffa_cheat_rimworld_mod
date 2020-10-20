@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_Super"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<MoveSpeed>1.0</MoveSpeed>
+					<CarryingCapacity>120</CarryingCapacity>
+					<MeleeDodgeChance>9.0</MeleeDodgeChance>
+					<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>1.25</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>1.25</postFactor>
+					</li>
+				</capMods>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_HyperweaveSkin"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>900</ArmorRating_Sharp>
+					<ArmorRating_Blunt>900</ArmorRating_Blunt>
+					<ArmorRating_Heat>900</ArmorRating_Heat>
+					<ComfyTemperatureMax>900</ComfyTemperatureMax>
+					<ComfyTemperatureMin>-900</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_PlasteelSkin"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>900</ArmorRating_Sharp>
+					<ArmorRating_Blunt>900</ArmorRating_Blunt>
+					<ArmorRating_Heat>900</ArmorRating_Heat>
+					<ComfyTemperatureMax>900</ComfyTemperatureMax>
+					<ComfyTemperatureMin>-900</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_DragonScales"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<ArmorRating_Sharp>900</ArmorRating_Sharp>
+					<ArmorRating_Blunt>900</ArmorRating_Blunt>
+					<ArmorRating_Heat>900</ArmorRating_Heat>
+					<ComfyTemperatureMax>900</ComfyTemperatureMax>
+					<ComfyTemperatureMin>-900</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_FighterModule"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<MoveSpeed>0.5</MoveSpeed>
+					<MeleeHitChance>900</MeleeHitChance>
+					<MeleeDodgeChance>900</MeleeDodgeChance>
+					<ShootingAccuracyPawn>900</ShootingAccuracyPawn>
+					<AimingDelayFactor>-99</AimingDelayFactor>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>    
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_MedicalModule"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<MedicalTendSpeed>1.5</MedicalTendSpeed>
+					<MedicalOperationSpeed>1.5</MedicalOperationSpeed>
+					<MedicalTendQuality>900</MedicalTendQuality>
+					<MedicalSurgerySuccessChance>900</MedicalSurgerySuccessChance>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>  
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_ConstructionModule"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<MiningSpeed>1.5</MiningSpeed>
+					<MiningYield>1.1</MiningYield>
+					<SmoothingSpeed>1.5</SmoothingSpeed>
+					<ConstructionSpeed>1.5</ConstructionSpeed>
+					<ConstructSuccessChance>3</ConstructSuccessChance>
+					<FixBrokenDownBuildingSuccessChance>900</FixBrokenDownBuildingSuccessChance>
+					<GeneralLaborSpeed>1.5</GeneralLaborSpeed>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>  
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_CrafterModule"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<GeneralLaborSpeed>1.5</GeneralLaborSpeed>
+					<CookSpeed>1.5</CookSpeed>
+					<DrugCookingSpeed>1.5</DrugCookingSpeed>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>  
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_AgriculturalModule"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<AnimalGatherSpeed>1.5</AnimalGatherSpeed>
+					<AnimalGatherYield>3</AnimalGatherYield>
+					<PlantWorkSpeed>1.5</PlantWorkSpeed>
+					<PlantHarvestYield>3</PlantHarvestYield>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>  
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_ScienceModule"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<ResearchSpeed>3</ResearchSpeed>
+					<DrugSynthesisSpeed>1.5</DrugSynthesisSpeed>
+					<DrugCookingSpeed>1.5</DrugCookingSpeed>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>  
+
+	<Operation Class="PatchOperationAdd">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_VanometricCell"]/stages</xpath>
+		<value>
+            <li>
+                <restFallFactor>0</restFallFactor>
+            </li>
+		</value>
+	</Operation>  
+
+	<Operation Class="PatchOperationAdd">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_MechaniteHive"]/stages</xpath>
+		<value>
+            <li>
+                <statOffsets>
+                    <ImmunityGainSpeed>10</ImmunityGainSpeed>
+                </statOffsets>
+            </li>
+		</value>
+	</Operation>  
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_PsychicAttunement"]/stages/li</xpath>
+		<value>
+			<li>
+				<statOffsets>
+					<PsychicSensitivity>3</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>  
+
+	<Operation Class="PatchOperationReplace">
+    	<xpath>/Defs/HediffDef[defName="ChjAndroidUpgrade_ArchotechAIModule"]/stages/li</xpath>
+		<value>
+			<li>
+				<restFallFactor>0</restFallFactor>
+				<painFactor>0</painFactor>
+				<statOffsets>
+					<MentalBreakThreshold>-9999</MentalBreakThreshold>
+					<GlobalLearningFactor>10</GlobalLearningFactor>
+					<WorkSpeedGlobal>10</WorkSpeedGlobal>
+					<ImmunityGainSpeed>10</ImmunityGainSpeed>
+					<PsychicSensitivity>10</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</value>
+	</Operation>  
+
+</Patch>

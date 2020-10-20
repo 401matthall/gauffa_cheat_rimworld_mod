@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Gauffa Cheats</name>
+	<author>Gauffa</author>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>Gauffa.Cheats</packageId>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+        <li>
+			<packageId>ChJees.Androids</packageId>
+			<displayName>Androids</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1541064015</steamWorkshopUrl>
+        </li>
+	</modDependencies>
+	<loadAfter>
+		<li>ChJees.Androids</li>
+	</loadAfter>
+<description>
+    Here's my take a trying to avoid having to update my favorite mods whenever they update.
+</description>
+</ModMetaData>

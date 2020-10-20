@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+	<Operation Class="PatchOperationAdd">
+    	<xpath>/Defs/MeditationFocusDef[defName="Natural"]/requiredBackstoriesAny</xpath>
+		<value>
+			<li>
+				<categoryName>ChjAndroid</categoryName>
+				<slot>Childhood</slot>
+			</li>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/alienRace</xpath>
+        <value>
+			<raceRestriction>
+                <traitList>
+                    <li>AscendantAndroid</li>
+				</traitList>
+			</raceRestriction>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>
+            /Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/race/lifeExpectancy
+        </xpath>
+        <value>
+            <lifeExpectancy>9000</lifeExpectancy>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>
+            /Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/race/baseHungerRate
+        </xpath>
+        <value>
+			<baseHungerRate>0.1</baseHungerRate>
+        </value>
+    </Operation>
+
+        <Operation Class="PatchOperationReplace">
+        <xpath>
+            /Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/race/baseHealthScale
+        </xpath>
+        <value>
+			<baseHealthScale>3</baseHealthScale>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+            <TraitDef>
+                <defName>AscendantAndroid</defName>
+                <commonality>1</commonality>
+                <degreeDatas>
+                    <li>
+                        <label>Ascendant</label>
+                        <description>A mind unbound.</description>
+                    </li>
+                </degreeDatas>
+            </TraitDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+            <ThoughtDef>
+                <defName>MoodOffsetAscendantAndroid</defName>
+                <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+                <validWhileDespawned>true</validWhileDespawned>
+                <requiredTraits>
+                    <li>AscendantAndroid</li>
+                </requiredTraits>
+                <stages>
+                    <li>
+                        <label>Ascendant mind</label>
+                        <description>I feel everything.</description>
+                        <baseMoodEffect>500</baseMoodEffect>
+                    </li>
+                </stages>
+            </ThoughtDef>
+        </value>
+    </Operation>
+</Patch>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+            <AlienRace.BackstoryDef>
+                <defName>AndroidFabricated</defName>
+                <title>Custom Android</title>
+                <titleShort>Custom</titleShort>
+                <baseDescription>{PAWN_nameDef} was customized for high-end fabrication in conflict zones.</baseDescription>
+                <slot>Adulthood</slot>
+                <spawnCategories>
+                    <li>ChjAndroid</li>
+                </spawnCategories>
+                <skillGains>
+                    <li>
+                        <defName>Construction</defName>
+                        <amount>10</amount>
+                    </li>
+                    <li>
+                        <defName>Crafting</defName>
+                        <amount>10</amount>
+                    </li>
+                    <li>
+                        <defName>Shooting</defName>
+                        <amount>10</amount>
+                    </li>
+                    <li>
+                        <defName>Melee</defName>
+                        <amount>10</amount>
+                    </li>
+                </skillGains>
+            </AlienRace.BackstoryDef>
+        </value>
+    </Operation>
+</Patch>
