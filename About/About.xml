@@ -17,6 +17,11 @@
 			<displayName>Androids</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1541064015</steamWorkshopUrl>
         </li>
+		<li>
+			<packageId>kentington.saveourship2</packageId>
+			<displayName>Save Our Ship 2</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1909914131</steamWorkshopUrl>
+        </li>
 	</modDependencies>
 	<loadAfter>
 		<li>ChJees.Androids</li>
