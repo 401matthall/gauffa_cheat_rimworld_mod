@@ -45,7 +45,7 @@
             /Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/race/baseHealthScale
         </xpath>
         <value>
-			<baseHealthScale>3</baseHealthScale>
+			<baseHealthScale>100</baseHealthScale>
         </value>
     </Operation>
 
