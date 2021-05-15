@@ -11,6 +11,7 @@
                 <slot>Childhood</slot>
                 <spawnCategories>
                     <li>ChjAndroid</li>
+                    <li>Ascendant</li>
                 </spawnCategories>
                 <skillGains>
                     <li>

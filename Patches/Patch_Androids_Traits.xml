@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>	
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+            <TraitDef>
+                <defName>AscendantAndroid</defName>
+                <commonality>1</commonality>
+                <degreeDatas>
+                    <li>
+                        <label>Ascendant</label>
+                        <description>A mind unbound.</description>
+                    </li>
+                </degreeDatas>
+            </TraitDef>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+            <ThoughtDef>
+                <defName>MoodOffsetAscendantAndroid</defName>
+                <workerClass>ThoughtWorker_AlwaysActive</workerClass>
+                <validWhileDespawned>true</validWhileDespawned>
+                <requiredTraits>
+                    <li>AscendantAndroid</li>
+                </requiredTraits>
+                <stages>
+                    <li>
+                        <label>Ascendant mind</label>
+                        <description>I feel everything.</description>
+                        <baseMoodEffect>500</baseMoodEffect>
+                    </li>
+                </stages>
+            </ThoughtDef>
+        </value>
+    </Operation>
+
+</Patch>
