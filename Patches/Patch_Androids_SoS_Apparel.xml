@@ -10,86 +10,86 @@
                 <description>A ultratech breaching suit, designed to keep the occupant alive in outer space. Includes small thrusters for movement.</description>
                 <techLevel>Spacer</techLevel>
                 <recipeMaker>
-                <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-                <researchPrerequisite>ShipSpaceSuitsHeavy</researchPrerequisite>
-                <skillRequirements>
-                    <Crafting>11</Crafting>
-                </skillRequirements>
-                <recipeUsers Inherit="False">
-                    <li>FabricationBench</li>
-                </recipeUsers>
+                    <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+                    <researchPrerequisite>ShipSpaceSuitsHeavy</researchPrerequisite>
+                    <skillRequirements>
+                        <Crafting>11</Crafting>
+                    </skillRequirements>
+                    <recipeUsers Inherit="False">
+                        <li>FabricationBench</li>
+                    </recipeUsers>
                 </recipeMaker>
                 <graphicData>
-                <texPath>Things/Pawn/Humanlike/Apparel/EVA/EVA_Heavy</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
+                    <texPath>Things/Pawn/Humanlike/Apparel/EVA/EVA_Heavy</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
                 </graphicData>
                 <statBases>
-                <WorkToMake>70000</WorkToMake>
-                <MaxHitPoints>90000</MaxHitPoints>
-                <Mass>20</Mass>
-                <Flammability>0</Flammability>
-                <ArmorRating_Blunt>900</ArmorRating_Blunt>
-                <ArmorRating_Sharp>900</ArmorRating_Sharp>
-                <ArmorRating_Heat>900</ArmorRating_Heat>
-                <Insulation_Cold>900</Insulation_Cold>
-                <Insulation_Heat>900</Insulation_Heat>
-                <EquipDelay>15</EquipDelay>
+                    <WorkToMake>70000</WorkToMake>
+                    <MaxHitPoints>90000</MaxHitPoints>
+                    <Mass>20</Mass>
+                    <Flammability>0</Flammability>
+                    <ArmorRating_Blunt>900</ArmorRating_Blunt>
+                    <ArmorRating_Sharp>900</ArmorRating_Sharp>
+                    <ArmorRating_Heat>900</ArmorRating_Heat>
+                    <Insulation_Cold>900</Insulation_Cold>
+                    <Insulation_Heat>900</Insulation_Heat>
+                    <EquipDelay>15</EquipDelay>
                 </statBases>
                 <equippedStatOffsets>
-                <MoveSpeed>-0.1</MoveSpeed>
-                <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+                    <MoveSpeed>-0.1</MoveSpeed>
+                    <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
                 </equippedStatOffsets>
                 <thingCategories>
-                <li>Apparel</li>
+                    <li>Apparel</li>
                 </thingCategories>
                 <costList>
-                <ComponentSpacer>18</ComponentSpacer>
-                <Plasteel>300</Plasteel>
-                <Uranium>80</Uranium>
+                    <ComponentSpacer>18</ComponentSpacer>
+                    <Plasteel>300</Plasteel>
+                    <Uranium>80</Uranium>
                 </costList>
-                    <generateCommonality>2</generateCommonality>
-                    <apparel>
-                        <bodyPartGroups>
-                            <li>Torso</li>
-                            <li>Neck</li>
-                            <li>Shoulders</li>
-                            <li>Arms</li>
-                            <li>Legs</li>
-                            <li>Hands</li>
-                            <li>Feet</li>
-                        </bodyPartGroups>
-                        <wornGraphicPath>Things/Pawn/Humanlike/Apparel/EVA/EVA_Heavy</wornGraphicPath>
-                        <layers>
-                            <li>Middle</li>
-                            <li>Shell</li>
-                        </layers>
-                        <tags>
-                    <li>Spacer</li>
-                    <li>EVA</li>
-                </tags>
-                <defaultOutfitTags>
-                </defaultOutfitTags>
+                <generateCommonality>2</generateCommonality>
+                <apparel>
+                    <bodyPartGroups>
+                        <li>Torso</li>
+                        <li>Neck</li>
+                        <li>Shoulders</li>
+                        <li>Arms</li>
+                        <li>Legs</li>
+                        <li>Hands</li>
+                        <li>Feet</li>
+                    </bodyPartGroups>
+                    <wornGraphicPath>Things/Pawn/Humanlike/Apparel/EVA/EVA_Heavy</wornGraphicPath>
+                    <layers>
+                        <li>Middle</li>
+                        <li>Shell</li>
+                    </layers>
+                    <tags>
+                        <li>Spacer</li>
+                        <li>EVA</li>
+                    </tags>
+                    <defaultOutfitTags>
+                    </defaultOutfitTags>
                 </apparel>
                 <colorGenerator Class="ColorGenerator_Options">
-                <options>
-                    <li>
-                    <weight>10</weight>
-                    <only>RGBA(0.33,0.33,0.33,1)</only>
-                    </li>
-                    <li>
-                    <weight>10</weight>
-                    <only>RGBA(0.65,0.65,0.65,1)</only>
-                    </li>
-                    <li>
-                    <weight>6</weight>
-                    <min>RGBA(0.3,0.3,0.3,1)</min>
-                    <max>RGBA(0.5,0.5,0.5,1)</max>
-                    </li>
-                    <li>
-                    <weight>10</weight>
-                    <only>RGBA(0.9,0.9,0.9,1)</only>
-                    </li>
-                </options>
+                    <options>
+                        <li>
+                        <weight>10</weight>
+                        <only>RGBA(0.33,0.33,0.33,1)</only>
+                        </li>
+                        <li>
+                        <weight>10</weight>
+                        <only>RGBA(0.65,0.65,0.65,1)</only>
+                        </li>
+                        <li>
+                        <weight>6</weight>
+                        <min>RGBA(0.3,0.3,0.3,1)</min>
+                        <max>RGBA(0.5,0.5,0.5,1)</max>
+                        </li>
+                        <li>
+                        <weight>10</weight>
+                        <only>RGBA(0.9,0.9,0.9,1)</only>
+                        </li>
+                    </options>
                 </colorGenerator>
             </ThingDef>
         </value>
@@ -104,56 +104,56 @@
                 <description>A ultratech breaching suit helmet, designed to keep the occupant alive in outer space.</description>
                 <techLevel>Spacer</techLevel>
                 <recipeMaker>
-                <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-                <researchPrerequisite>ShipSpaceSuitsHeavy</researchPrerequisite>
-                <skillRequirements>
-                    <Crafting>11</Crafting>
-                </skillRequirements>
-                <recipeUsers Inherit="False">
-                    <li>FabricationBench</li>
-                </recipeUsers>
+                    <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+                    <researchPrerequisite>ShipSpaceSuitsHeavy</researchPrerequisite>
+                    <skillRequirements>
+                        <Crafting>11</Crafting>
+                    </skillRequirements>
+                    <recipeUsers Inherit="False">
+                        <li>FabricationBench</li>
+                    </recipeUsers>
                 </recipeMaker>
                 <graphicData>
-                <texPath>Things/Pawn/Humanlike/Apparel/EVA/EVA_Heavy_Helmet</texPath>
-                <graphicClass>Graphic_Single</graphicClass>
-                <shaderType>CutoutComplex</shaderType>
+                    <texPath>Things/Pawn/Humanlike/Apparel/EVA/EVA_Heavy_Helmet</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <shaderType>CutoutComplex</shaderType>
                 </graphicData>
                 <statBases>
-                <WorkToMake>21000</WorkToMake>
-                <MaxHitPoints>90000</MaxHitPoints>
-                <Mass>1.5</Mass>
-                <Flammability>0</Flammability>
-                <ArmorRating_Sharp>900</ArmorRating_Sharp>
-                <ArmorRating_Blunt>900</ArmorRating_Blunt>
-                <ArmorRating_Heat>900</ArmorRating_Heat>
-                <Insulation_Cold>900</Insulation_Cold>
-                <Insulation_Heat>900</Insulation_Heat>
-                <EquipDelay>4</EquipDelay>
+                    <WorkToMake>21000</WorkToMake>
+                    <MaxHitPoints>90000</MaxHitPoints>
+                    <Mass>1.5</Mass>
+                    <Flammability>0</Flammability>
+                    <ArmorRating_Sharp>900</ArmorRating_Sharp>
+                    <ArmorRating_Blunt>900</ArmorRating_Blunt>
+                    <ArmorRating_Heat>900</ArmorRating_Heat>
+                    <Insulation_Cold>900</Insulation_Cold>
+                    <Insulation_Heat>900</Insulation_Heat>
+                    <EquipDelay>4</EquipDelay>
                 </statBases>
                 <equippedStatOffsets>
-                <MoveSpeed>-0.01</MoveSpeed>
+                    <MoveSpeed>-0.01</MoveSpeed>
                 </equippedStatOffsets>
                 <costList>
-                <ComponentSpacer>8</ComponentSpacer>
-                <Plasteel>80</Plasteel>
-                <Gold>10</Gold>
+                    <ComponentSpacer>8</ComponentSpacer>
+                    <Plasteel>80</Plasteel>
+                    <Gold>10</Gold>
                 </costList>
-                    <generateCommonality>2</generateCommonality>
-                    <apparel>
-                        <bodyPartGroups>
-                            <li>FullHead</li>
-                        </bodyPartGroups>
-                        <wornGraphicPath>Things/Pawn/Humanlike/Apparel/EVA/EVA_Heavy_Helmet</wornGraphicPath>
-                        <useWornGraphicMask>true</useWornGraphicMask>
-                        <layers>
-                            <li>Overhead</li>
-                        </layers>
-                        <tags>
-                    <li>Spacer</li>
-                    <li>EVA</li>
-                </tags>
-                <defaultOutfitTags>
-                </defaultOutfitTags>
+                <generateCommonality>2</generateCommonality>
+                <apparel>
+                    <bodyPartGroups>
+                        <li>FullHead</li>
+                    </bodyPartGroups>
+                    <wornGraphicPath>Things/Pawn/Humanlike/Apparel/EVA/EVA_Heavy_Helmet</wornGraphicPath>
+                    <useWornGraphicMask>true</useWornGraphicMask>
+                    <layers>
+                        <li>Overhead</li>
+                    </layers>
+                    <tags>
+                        <li>Spacer</li>
+                        <li>EVA</li>
+                    </tags>
+                    <defaultOutfitTags>
+                    </defaultOutfitTags>
                 </apparel>
             </ThingDef>
         </value>
