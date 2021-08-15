@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/PawnKindDef[defName="SoSHologram"]/race</xpath>
+        <value>
+            <restFallFactor>0</restFallFactor>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/PawnKindDef[defName="SoSHologram"]</xpath>
+        <value>
+            <raceRestriction>
+                <traitList>
+                    <li>AscendantAndroid</li>
+                </traitList>
+            </raceRestriction>
+        </value>
+    </Operation> -->
+
+</Patch>
