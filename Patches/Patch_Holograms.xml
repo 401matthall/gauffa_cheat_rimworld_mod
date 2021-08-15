@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-    <!-- <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/PawnKindDef[defName="SoSHologram"]/race</xpath>
-        <value>
-            <restFallFactor>0</restFallFactor>
-        </value>
-    </Operation>
+	<Operation Class="PatchOperationAdd">
+    	<xpath>/Defs/HediffDef[defName="SoSHologram"]/disablesNeeds</xpath>
+		<value>
+            <li>Rest</li>
+		</value>
+	</Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/PawnKindDef[defName="SoSHologram"]</xpath>
-        <value>
-            <raceRestriction>
-                <traitList>
-                    <li>AscendantAndroid</li>
-                </traitList>
-            </raceRestriction>
-        </value>
-    </Operation> -->
+	<Operation Class="PatchOperationAdd">
+    	<xpath>/Defs/HediffDef[defName="SoSHologramMachine"]/disablesNeeds</xpath>
+		<value>
+            <li>Rest</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+    	<xpath>/Defs/HediffDef[defName="SoSHologramArchotech"]/disablesNeeds</xpath>
+		<value>
+            <li>Rest</li>
+		</value>
+	</Operation>
 
 </Patch>
