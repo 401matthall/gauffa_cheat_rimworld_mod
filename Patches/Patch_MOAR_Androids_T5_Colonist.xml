@@ -1,162 +1,246 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
-    <Operation Class="PatchOperationAdd">
-	    <xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
-	    <value>
-	    	<li>PlayerColonyAndroid</li>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-    	<xpath>/Defs</xpath>
-        <value>
-            <ThingDef ParentName="BuildingCreatorBase">
-                <defName>T5AndroidGeneratorAI</defName>
-                <label>T5 Android</label>
-                <comps>
-                <li Class="MOARANDROIDS.SpawnerCompProperties_GenericSpawner">
-                    <compClass>MOARANDROIDS.CompAndroidSpawnerGeneric</compClass>
-                    <Pawnkind>AndroidT5Colonist</Pawnkind>
-                </li>
-                </comps>
-            </ThingDef>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+            <value>
+                <li>PlayerColonyAndroid</li>
+            </value>
+        </match>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/PawnKindDef[defName="AndroidT5Colonist"]/backstoryFiltersOverride/li/categories</xpath>
-        <value>
-            <categories>
-                <li>Ascendant</li>
-            </categories>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs</xpath>
+            <value>
+                <ThingDef ParentName="BuildingCreatorBase">
+                    <defName>T5AndroidGeneratorAI</defName>
+                    <label>T5 Android</label>
+                    <comps>
+                    <li Class="MOARANDROIDS.SpawnerCompProperties_GenericSpawner">
+                        <compClass>MOARANDROIDS.CompAndroidSpawnerGeneric</compClass>
+                        <Pawnkind>AndroidT5Colonist</Pawnkind>
+                    </li>
+                    </comps>
+                </ThingDef>
+            </value>
+        </match>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/alienRace/raceRestriction</xpath>
-        <value>
-            <traitList>
-                <li>AscendantAndroid</li>
-            </traitList>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/PawnKindDef[defName="AndroidT5Colonist"]/backstoryFiltersOverride/li/categories</xpath>
+            <value>
+                <categories>
+                    <li>Ascendant</li>
+                </categories>
+            </value>
+        </match>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
-        <xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/race/lifeExpectancy
-        </xpath>
-        <value>
-            <lifeExpectancy>10000</lifeExpectancy>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/alienRace/raceRestriction</xpath>
+            <value>
+                <traitList>
+                    <li>AscendantAndroid</li>
+                </traitList>
+            </value>
+        </match>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
-        <xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/race/baseHungerRate
-        </xpath>
-        <value>
-			<baseHungerRate>0</baseHungerRate>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/race/lifeExpectancy
+            </xpath>
+            <value>
+                <lifeExpectancy>10000</lifeExpectancy>
+            </value>
+        </match>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
-        <xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/race/baseHealthScale
-        </xpath>
-        <value>
-			<baseHealthScale>100</baseHealthScale>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/race/baseHungerRate
+            </xpath>
+            <value>
+                <baseHungerRate>0</baseHungerRate>
+            </value>
+        </match>
     </Operation>
 
-	<Operation Class="PatchOperationReplace">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/ArmorRating_Blunt
-        </xpath>
-		<value>
-			<ArmorRating_Blunt>900</ArmorRating_Blunt>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/ArmorRating_Sharp
-        </xpath>
-		<value>
-			<ArmorRating_Sharp>900</ArmorRating_Sharp>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationAdd">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases
-        </xpath>
-		<value>
-            <ArmorRating_Heat>900</ArmorRating_Heat>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/Flammability
-        </xpath>
-		<value>
-            <Flammability>0</Flammability>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/race/baseHealthScale
+            </xpath>
+            <value>
+                <baseHealthScale>100</baseHealthScale>
+            </value>
+        </match>
     </Operation>
 
-	<Operation Class="PatchOperationReplace">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/MoveSpeed
-        </xpath>
-		<value>
-            <MoveSpeed>10</MoveSpeed>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/ArmorRating_Blunt
+            </xpath>
+            <value>
+                <ArmorRating_Blunt>900</ArmorRating_Blunt>
+            </value>
+        </match>
     </Operation>
 
-	<Operation Class="PatchOperationReplace">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/ComfyTemperatureMin
-        </xpath>
-		<value>
-            <ComfyTemperatureMin>-900</ComfyTemperatureMin>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/ArmorRating_Sharp
+            </xpath>
+            <value>
+                <ArmorRating_Sharp>900</ArmorRating_Sharp>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases
+            </xpath>
+            <value>
+                <ArmorRating_Heat>900</ArmorRating_Heat>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/Flammability
+            </xpath>
+            <value>
+                <Flammability>0</Flammability>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/MoveSpeed
+            </xpath>
+            <value>
+                <MoveSpeed>10</MoveSpeed>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/ComfyTemperatureMin
+            </xpath>
+            <value>
+                <ComfyTemperatureMin>-900</ComfyTemperatureMin>
+            </value>
+        </match>
     </Operation>
     
-	<Operation Class="PatchOperationReplace">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/ComfyTemperatureMax
-        </xpath>
-		<value>
-            <ComfyTemperatureMax>900</ComfyTemperatureMax>
-        </value>
+        <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/ComfyTemperatureMax
+            </xpath>
+            <value>
+                <ComfyTemperatureMax>900</ComfyTemperatureMax>
+            </value>
+        </match>
     </Operation>
 
-	<Operation Class="PatchOperationReplace">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/PainShockThreshold
-        </xpath>
-		<value>
-            <PainShockThreshold>900</PainShockThreshold>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/PainShockThreshold
+            </xpath>
+            <value>
+                <PainShockThreshold>900</PainShockThreshold>
+            </value>
+        </match>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/MentalBreakThreshold
-        </xpath>
-		<value>
-            <MentalBreakThreshold>0</MentalBreakThreshold>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/MentalBreakThreshold
+            </xpath>
+            <value>
+                <MentalBreakThreshold>0</MentalBreakThreshold>
+            </value>
+        </match>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
-    	<xpath>
-            /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/MedicalSurgerySuccessChance
-        </xpath>
-		<value>
-			<MedicalSurgerySuccessChance>900</MedicalSurgerySuccessChance>
-        </value>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>
+                /Defs/AlienRace.ThingDef_AlienRace[defName="Android5Tier"]/statBases/MedicalSurgerySuccessChance
+            </xpath>
+            <value>
+                <MedicalSurgerySuccessChance>900</MedicalSurgerySuccessChance>
+            </value>
+        </match>
     </Operation>
 
 </Patch>
