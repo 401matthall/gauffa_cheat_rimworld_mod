@@ -22,4 +22,8 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/ThingDef[defName="SoSHologramRace"]/comps</xpath>
+	</Operation>
+
 </Patch>
