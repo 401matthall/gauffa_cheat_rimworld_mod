@@ -13,6 +13,12 @@
                     <li>ChjAndroid</li>
                     <li>Ascendant</li>
                 </spawnCategories>
+                <forcedTraits>
+                    <li>
+                        <defName>AscendantAndroid</defName>
+                        <chance>100</chance>
+                    </li>
+                </forcedTraits>
                 <skillGains>
                     <li>
                         <defName>Construction</defName>
