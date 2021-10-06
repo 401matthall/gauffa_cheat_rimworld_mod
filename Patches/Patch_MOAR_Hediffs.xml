@@ -159,6 +159,8 @@
                             <statOffsets>
                                 <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+                                <ComfyTemperatureMax>10</ComfyTemperatureMax>
+                                <ComfyTemperatureMin>-10</ComfyTemperatureMin>
                             </statOffsets>
                             <capMods>
                                 <li>
@@ -178,6 +180,8 @@
                                 <ArmorRating_Sharp>1</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>1</ArmorRating_Blunt>
                                 <ArmorRating_Heat>1</ArmorRating_Heat>
+                                <ComfyTemperatureMax>20</ComfyTemperatureMax>
+                                <ComfyTemperatureMin>-20</ComfyTemperatureMin>
                             </statOffsets>
                             <capMods>
                                 <li>
@@ -197,6 +201,8 @@
                                 <ArmorRating_Sharp>2</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>2</ArmorRating_Blunt>
                                 <ArmorRating_Heat>2</ArmorRating_Heat>
+                                <ComfyTemperatureMax>30</ComfyTemperatureMax>
+                                <ComfyTemperatureMin>-30</ComfyTemperatureMin>
                             </statOffsets>
                         </li>
                         <li>
@@ -206,6 +212,8 @@
                                 <ArmorRating_Sharp>4</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>4</ArmorRating_Blunt>
                                 <ArmorRating_Heat>4</ArmorRating_Heat>
+                                <ComfyTemperatureMax>40</ComfyTemperatureMax>
+                                <ComfyTemperatureMin>-40</ComfyTemperatureMin>
                             </statOffsets>
                         </li>
                         <li>
@@ -215,6 +223,8 @@
                                 <ArmorRating_Sharp>5</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>5</ArmorRating_Blunt>
                                 <ArmorRating_Heat>5</ArmorRating_Heat>
+                                <ComfyTemperatureMax>50</ComfyTemperatureMax>
+                                <ComfyTemperatureMin>-50</ComfyTemperatureMin>
                             </statOffsets>
                         </li>
                     </stages>
