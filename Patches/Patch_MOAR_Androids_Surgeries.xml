@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android4Tier"]/recipes</xpath>
+            <value>
+                <li>InstallQuantumConverter</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android3Tier"]/recipes</xpath>
+            <value>
+                <li>InstallQuantumConverter</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android2Tier"]/recipes</xpath>
+            <value>
+                <li>InstallQuantumConverter</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android1Tier"]/recipes</xpath>
+            <value>
+                <li>InstallQuantumConverter</li>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>
