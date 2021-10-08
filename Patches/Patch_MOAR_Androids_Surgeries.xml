@@ -48,4 +48,38 @@
         </match>
     </Operation>
 
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="M8Mech"]/recipes</xpath>
+            <value>
+                <li>InstallAdv2Plating</li>
+                <li>InstallSoldierMindImplant</li>
+                <li>InstallQuantumConverter</li>
+                <li>InstallBasicReplacementLeg</li>
+                <li>InstallHydraulicReplacementLeg</li>
+                <li>InstallAdvancedReplacementLeg</li>
+                <li>InstallCyberReplacementLeg</li>
+                <li>InstallBasicReplacementArm</li>
+                <li>InstallHydraulicReplacementArm</li>
+                <li>InstallAdvancedReplacementArm</li>
+                <li>InstallCyberReplacementArm</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="InstallAdv2Plating"]/appliedOnFixedBodyParts</xpath>
+            <value>
+                <li>MechanicalChassis</li>
+            </value>
+        </match>
+    </Operation>
+
 </Patch>

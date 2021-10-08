@@ -9,9 +9,9 @@
             <value>
                 <HediffDef ParentName="AddedBodyPartBaseAndroid3">
                     <defName>A2VAdapter</defName>
-                    <label>vanometric power converter</label>
-                    <labelNoun>a vanometric power converter</labelNoun>
-                    <description>An installed vanometric power converter.</description>
+                    <label>arcotech power converter</label>
+                    <labelNoun>a arcotech power converter</labelNoun>
+                    <description>An installed arcotech power converter.</description>
                     <initialSeverity>0.05</initialSeverity>
                     <maxSeverity>1</maxSeverity>
                     <comps>
@@ -22,102 +22,102 @@
                     <stages>
                         <li>
                             <minSeverity>0.05</minSeverity>
-                            <label>Initializing quantum state</label>
+                            <label>Initializing</label>
                             <hungerRateFactorOffset>-0.05</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.10</minSeverity>
-                            <label>Early quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.10</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.15</minSeverity>
-                            <label>Early quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.15</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.20</minSeverity>
-                            <label>Early quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.2</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.25</minSeverity>
-                            <label>Mid quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.25</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.30</minSeverity>
-                            <label>Mid quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.30</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.35</minSeverity>
-                            <label>Mid quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.35</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.40</minSeverity>
-                            <label>Mid quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.40</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.45</minSeverity>
-                            <label>Mid quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.45</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.50</minSeverity>
-                            <label>Mid quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.50</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.55</minSeverity>
-                            <label>Mid quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.55</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.60</minSeverity>
-                            <label>Mid quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.60</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.65</minSeverity>
-                            <label>Late quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.65</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.70</minSeverity>
-                            <label>Late quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.70</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.75</minSeverity>
-                            <label>Late quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.75</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.80</minSeverity>
-                            <label>Late quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.80</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.85</minSeverity>
-                            <label>Late quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.85</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.90</minSeverity>
-                            <label>Late quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.90</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>0.95</minSeverity>
-                            <label>Maximal quantum state synchronization</label>
+                            <label>Calibrating</label>
                             <hungerRateFactorOffset>-0.95</hungerRateFactorOffset>
                         </li>
                         <li>
                             <minSeverity>1</minSeverity>
-                            <label>Quantum synchronization</label>
+                            <label>Actualized</label>
                             <hungerRateFactorOffset>-1</hungerRateFactorOffset>
                         </li>
                     </stages>
@@ -155,7 +155,7 @@
                     <stages>
                         <li>
                             <minSeverity>0.05</minSeverity>
-                            <label>Early stage self-adjustment</label>
+                            <label>Initializing</label>
                             <statOffsets>
                                 <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
@@ -175,7 +175,7 @@
                         </li>
                         <li>
                             <minSeverity>0.25</minSeverity>
-                            <label>Early stage self-adjustment</label>
+                            <label>Calibrating</label>
                             <statOffsets>
                                 <ArmorRating_Sharp>1</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>1</ArmorRating_Blunt>
@@ -196,7 +196,7 @@
                         </li>
                         <li>
                             <minSeverity>0.45</minSeverity>
-                            <label>Middle stage self-adjustment</label>
+                            <label>Calibrating</label>
                             <statOffsets>
                                 <ArmorRating_Sharp>2</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>2</ArmorRating_Blunt>
@@ -207,7 +207,7 @@
                         </li>
                         <li>
                             <minSeverity>0.75</minSeverity>
-                            <label>Late stage self-adjustment</label>
+                            <label>Calibrating</label>
                             <statOffsets>
                                 <ArmorRating_Sharp>4</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>4</ArmorRating_Blunt>
@@ -218,7 +218,7 @@
                         </li>
                         <li>
                             <minSeverity>1</minSeverity>
-                            <label>Fully adjusted</label>
+                            <label>Actualized</label>
                             <statOffsets>
                                 <ArmorRating_Sharp>5</ArmorRating_Sharp>
                                 <ArmorRating_Blunt>5</ArmorRating_Blunt>
@@ -230,7 +230,82 @@
                     </stages>
                     <spawnThingOnRemoved>CompositePlating</spawnThingOnRemoved>
                     <addedPartProps>
-                    <solid>true</solid>
+                        <solid>true</solid>
+                    </addedPartProps>
+                </HediffDef>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/HediffDef[defName="SoldierMind"]</xpath>
+            <value>
+                <HediffDef ParentName="ImplantHediffBase">
+                    <defaultLabelColor>(0.7, 0.6, 0.7)</defaultLabelColor>
+                    <defName>SoldierMind</defName>
+                    <label>Soldier upgrade</label>
+                    <labelNoun>a soldier upgrade</labelNoun>
+                    <description>An installed solider upgrade.</description>
+                    <initialSeverity>0.05</initialSeverity>
+                    <maxSeverity>1</maxSeverity>
+                    <comps>
+                        <li Class="HediffCompProperties_SeverityPerDay">
+                            <severityPerDay>0.05</severityPerDay>
+                        </li>
+                    </comps>
+                    <stages>
+                        <li>
+                            <minSeverity>0.05</minSeverity>
+                            <label>Initializing</label>
+                            <statOffsets>
+                                <RangedWeapon_Cooldown>-1</RangedWeapon_Cooldown>
+                                <MeleeWeapon_CooldownMultiplier>-0.35</MeleeWeapon_CooldownMultiplier>
+                                <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+                                <HuntingStealth>0.25</HuntingStealth>
+                                <AimingDelayFactor>-1</AimingDelayFactor>
+                            </statOffsets>
+                        </li>
+                        <li>
+                            <minSeverity>0.25</minSeverity>
+                            <label>Calibrating</label>
+                            <statOffsets>
+                                <RangedWeapon_Cooldown>-2</RangedWeapon_Cooldown>
+                                <MeleeWeapon_CooldownMultiplier>-0.45</MeleeWeapon_CooldownMultiplier>
+                                <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+                                <HuntingStealth>0.5</HuntingStealth>
+                                <AimingDelayFactor>-2</AimingDelayFactor>
+                            </statOffsets>
+                        </li>
+                        <li>
+                            <minSeverity>0.55</minSeverity>
+                            <label>Calibrating</label>
+                            <statOffsets>
+                                <RangedWeapon_Cooldown>-3</RangedWeapon_Cooldown>
+                                <MeleeWeapon_CooldownMultiplier>-0.65</MeleeWeapon_CooldownMultiplier>
+                                <ShootingAccuracyPawn>0.6</ShootingAccuracyPawn>
+                                <HuntingStealth>0.6</HuntingStealth>
+                                <AimingDelayFactor>-3</AimingDelayFactor>
+                            </statOffsets>
+                        </li>
+                        <li>
+                            <minSeverity>1</minSeverity>
+                            <label>Actualized</label>
+                            <statOffsets>
+                                <RangedWeapon_Cooldown>-9</RangedWeapon_Cooldown>
+                                <MeleeWeapon_CooldownMultiplier>-0.99</MeleeWeapon_CooldownMultiplier>
+                                <ShootingAccuracyPawn>0.99</ShootingAccuracyPawn>
+                                <HuntingStealth>0.99</HuntingStealth>
+                                <AimingDelayFactor>-9</AimingDelayFactor>
+                            </statOffsets>
+                        </li>
+                    </stages>
+                    <spawnThingOnRemoved>SoldierMindImplant</spawnThingOnRemoved>
+                    <addedPartProps>
+                        <solid>true</solid>
                     </addedPartProps>
                 </HediffDef>
             </value>
