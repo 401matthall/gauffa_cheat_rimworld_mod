@@ -2,7 +2,7 @@
 <Patch>
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Atlas.AndroidTiers</li>
+            <li>Android tiers</li>
         </mods>
         <match Class="PatchOperationReplace">
             <xpath>/Defs/HediffDef[defName="A2VAdapter"]</xpath>
@@ -134,7 +134,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Atlas.AndroidTiers</li>
+            <li>Android tiers</li>
         </mods>
         <match Class="PatchOperationReplace">
             <xpath>/Defs/HediffDef[defName="PlatingComposite"]</xpath>
@@ -239,7 +239,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Atlas.AndroidTiers</li>
+            <li>Android tiers</li>
         </mods>
         <match Class="PatchOperationReplace">
             <xpath>/Defs/HediffDef[defName="SoldierMind"]</xpath>

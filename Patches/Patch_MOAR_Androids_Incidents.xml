@@ -2,7 +2,7 @@
 <Patch>
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Atlas.AndroidTiers</li>
+            <li>Android tiers</li>
         </mods>
         <match Class="PatchOperationRemove">
             <xpath>/Defs/IncidentDef/ATTP_DeviceHacking</xpath>
@@ -11,7 +11,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Atlas.AndroidTiers</li>
+            <li>Android tiers</li>
         </mods>
         <match Class="PatchOperationRemove">
             <xpath>/Defs/IncidentDef/ATPP_SurrogateHacking</xpath>
@@ -20,7 +20,7 @@
     
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Atlas.AndroidTiers</li>
+            <li>Android tiers</li>
         </mods>
         <match Class="PatchOperationRemove">
             <xpath>/Defs/IncidentDef/ATPP_Ransomware</xpath>
