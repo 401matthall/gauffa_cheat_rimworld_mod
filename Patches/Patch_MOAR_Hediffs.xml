@@ -264,7 +264,7 @@
                             <statOffsets>
                                 <RangedWeapon_Cooldown>-1</RangedWeapon_Cooldown>
                                 <MeleeWeapon_CooldownMultiplier>-0.35</MeleeWeapon_CooldownMultiplier>
-                                <ShootingAccuracyPawn>0.25</ShootingAccuracyPawn>
+                                <ShootingAccuracyPawn>10</ShootingAccuracyPawn>
                                 <HuntingStealth>0.25</HuntingStealth>
                                 <AimingDelayFactor>-1</AimingDelayFactor>
                             </statOffsets>
@@ -275,7 +275,7 @@
                             <statOffsets>
                                 <RangedWeapon_Cooldown>-2</RangedWeapon_Cooldown>
                                 <MeleeWeapon_CooldownMultiplier>-0.45</MeleeWeapon_CooldownMultiplier>
-                                <ShootingAccuracyPawn>0.5</ShootingAccuracyPawn>
+                                <ShootingAccuracyPawn>15</ShootingAccuracyPawn>
                                 <HuntingStealth>0.5</HuntingStealth>
                                 <AimingDelayFactor>-2</AimingDelayFactor>
                             </statOffsets>
@@ -286,7 +286,7 @@
                             <statOffsets>
                                 <RangedWeapon_Cooldown>-3</RangedWeapon_Cooldown>
                                 <MeleeWeapon_CooldownMultiplier>-0.65</MeleeWeapon_CooldownMultiplier>
-                                <ShootingAccuracyPawn>0.6</ShootingAccuracyPawn>
+                                <ShootingAccuracyPawn>20</ShootingAccuracyPawn>
                                 <HuntingStealth>0.6</HuntingStealth>
                                 <AimingDelayFactor>-3</AimingDelayFactor>
                             </statOffsets>
@@ -297,8 +297,8 @@
                             <statOffsets>
                                 <RangedWeapon_Cooldown>-9</RangedWeapon_Cooldown>
                                 <MeleeWeapon_CooldownMultiplier>-0.99</MeleeWeapon_CooldownMultiplier>
-                                <ShootingAccuracyPawn>0.99</ShootingAccuracyPawn>
-                                <HuntingStealth>0.99</HuntingStealth>
+                                <ShootingAccuracyPawn>25</ShootingAccuracyPawn>
+                                <HuntingStealth>1</HuntingStealth>
                                 <AimingDelayFactor>-9</AimingDelayFactor>
                             </statOffsets>
                         </li>

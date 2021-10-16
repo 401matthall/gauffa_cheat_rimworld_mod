@@ -53,6 +53,66 @@
             <li>Android tiers</li>
         </mods>
         <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AndroidMuff"]/recipes</xpath>
+            <value>
+                <li>InstallQuantumConverter</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AndroidChicken"]/recipes</xpath>
+            <value>
+                <li>InstallQuantumConverter</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="RoboticSheep"]/recipes</xpath>
+            <value>
+                <li>InstallQuantumConverter</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="RoboticCow"]/recipes</xpath>
+            <value>
+                <li>InstallQuantumConverter</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="AndroidDog"]/recipes</xpath>
+            <value>
+                <li>InstallQuantumConverter</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Android tiers</li>
+        </mods>
+        <match Class="PatchOperationAdd">
             <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="M8Mech"]/recipes</xpath>
             <value>
                 <li>InstallAdv2Plating</li>
