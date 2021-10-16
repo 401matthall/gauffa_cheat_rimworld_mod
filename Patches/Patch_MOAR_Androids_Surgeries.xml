@@ -2,7 +2,7 @@
 <Patch>
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android4Tier"]/recipes</xpath>
@@ -14,7 +14,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android3Tier"]/recipes</xpath>
@@ -26,7 +26,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android2Tier"]/recipes</xpath>
@@ -38,7 +38,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Android1Tier"]/recipes</xpath>
@@ -50,7 +50,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/ThingDef[defName="AndroidMuff"]/recipes</xpath>
@@ -62,7 +62,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/ThingDef[defName="AndroidChicken"]/recipes</xpath>
@@ -74,7 +74,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/ThingDef[defName="RoboticSheep"]/recipes</xpath>
@@ -86,7 +86,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/ThingDef[defName="RoboticCow"]/recipes</xpath>
@@ -98,7 +98,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/ThingDef[defName="AndroidDog"]/recipes</xpath>
@@ -110,7 +110,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="M8Mech"]/recipes</xpath>
@@ -132,7 +132,7 @@
 
     <Operation Class="PatchOperationFindMod">
         <mods>
-            <li>Android tiers</li>
+            <li>Atlas.AndroidTiers</li>
         </mods>
         <match Class="PatchOperationAdd">
             <xpath>/Defs/RecipeDef[defName="InstallAdv2Plating"]/appliedOnFixedBodyParts</xpath>
